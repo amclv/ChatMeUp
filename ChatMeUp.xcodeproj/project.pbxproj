@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADAB77B2568C24900E238C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAB77A2568C24900E238C6 /* AppDelegate.swift */; };
+		1ADAB77D2568C24900E238C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAB77C2568C24900E238C6 /* SceneDelegate.swift */; };
+		1ADAB77F2568C24900E238C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAB77E2568C24900E238C6 /* ViewController.swift */; };
+		1ADAB7822568C24900E238C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAB7802568C24900E238C6 /* Main.storyboard */; };
+		1ADAB7842568C24A00E238C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAB7832568C24A00E238C6 /* Assets.xcassets */; };
+		1ADAB7872568C24A00E238C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAB7852568C24A00E238C6 /* LaunchScreen.storyboard */; };
+		1ADAB7942568CCD900E238C6 /* OnboardingScreens.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAB7932568CCD900E238C6 /* OnboardingScreens.xib */; };
+		1ADAB7972568CDA600E238C6 /* OnboardingScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAB7962568CDA600E238C6 /* OnboardingScreens.swift */; };
+		1ADAB79E2568D48500E238C6 /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAB79D2568D48500E238C6 /* OnboardingPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ADAB7772568C24900E238C6 /* ChatMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADAB77A2568C24900E238C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ADAB77C2568C24900E238C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ADAB77E2568C24900E238C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ADAB7812568C24900E238C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ADAB7832568C24A00E238C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ADAB7862568C24A00E238C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ADAB7882568C24A00E238C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ADAB7932568CCD900E238C6 /* OnboardingScreens.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingScreens.xib; sourceTree = "<group>"; };
+		1ADAB7962568CDA600E238C6 /* OnboardingScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreens.swift; sourceTree = "<group>"; };
+		1ADAB79D2568D48500E238C6 /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADAB7742568C24900E238C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ADAB76E2568C24900E238C6 = {
+			isa = PBXGroup;
+			children = (
+				1ADAB7792568C24900E238C6 /* ChatMeUp */,
+				1ADAB7782568C24900E238C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADAB7782568C24900E238C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADAB7772568C24900E238C6 /* ChatMeUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADAB7792568C24900E238C6 /* ChatMeUp */ = {
+			isa = PBXGroup;
+			children = (
+				1ADAB77A2568C24900E238C6 /* AppDelegate.swift */,
+				1ADAB77C2568C24900E238C6 /* SceneDelegate.swift */,
+				1ADAB77E2568C24900E238C6 /* ViewController.swift */,
+				1ADAB7802568C24900E238C6 /* Main.storyboard */,
+				1ADAB7832568C24A00E238C6 /* Assets.xcassets */,
+				1ADAB7852568C24A00E238C6 /* LaunchScreen.storyboard */,
+				1ADAB7882568C24A00E238C6 /* Info.plist */,
+				1ADAB7A02568D84500E238C6 /* OnboardingItems */,
+				1ADAB79D2568D48500E238C6 /* OnboardingPageViewController.swift */,
+			);
+			path = ChatMeUp;
+			sourceTree = "<group>";
+		};
+		1ADAB7A02568D84500E238C6 /* OnboardingItems */ = {
+			isa = PBXGroup;
+			children = (
+				1ADAB7932568CCD900E238C6 /* OnboardingScreens.xib */,
+				1ADAB7962568CDA600E238C6 /* OnboardingScreens.swift */,
+			);
+			path = OnboardingItems;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ADAB7762568C24900E238C6 /* ChatMeUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADAB78B2568C24A00E238C6 /* Build configuration list for PBXNativeTarget "ChatMeUp" */;
+			buildPhases = (
+				1ADAB7732568C24900E238C6 /* Sources */,
+				1ADAB7742568C24900E238C6 /* Frameworks */,
+				1ADAB7752568C24900E238C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatMeUp;
+			productName = ChatMeUp;
+			productReference = 1ADAB7772568C24900E238C6 /* ChatMeUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADAB76F2568C24900E238C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1ADAB7762568C24900E238C6 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 1ADAB7722568C24900E238C6 /* Build configuration list for PBXProject "ChatMeUp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ADAB76E2568C24900E238C6;
+			productRefGroup = 1ADAB7782568C24900E238C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADAB7762568C24900E238C6 /* ChatMeUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ADAB7752568C24900E238C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADAB7942568CCD900E238C6 /* OnboardingScreens.xib in Resources */,
+				1ADAB7872568C24A00E238C6 /* LaunchScreen.storyboard in Resources */,
+				1ADAB7842568C24A00E238C6 /* Assets.xcassets in Resources */,
+				1ADAB7822568C24900E238C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADAB7732568C24900E238C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADAB7972568CDA600E238C6 /* OnboardingScreens.swift in Sources */,
+				1ADAB77F2568C24900E238C6 /* ViewController.swift in Sources */,
+				1ADAB79E2568D48500E238C6 /* OnboardingPageViewController.swift in Sources */,
+				1ADAB77B2568C24900E238C6 /* AppDelegate.swift in Sources */,
+				1ADAB77D2568C24900E238C6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1ADAB7802568C24900E238C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADAB7812568C24900E238C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ADAB7852568C24A00E238C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADAB7862568C24A00E238C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ADAB7892568C24A00E238C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ADAB78A2568C24A00E238C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ADAB78C2568C24A00E238C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatMeUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaroncleveland.ChatMeUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ADAB78D2568C24A00E238C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatMeUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaroncleveland.ChatMeUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ADAB7722568C24900E238C6 /* Build configuration list for PBXProject "ChatMeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADAB7892568C24A00E238C6 /* Debug */,
+				1ADAB78A2568C24A00E238C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADAB78B2568C24A00E238C6 /* Build configuration list for PBXNativeTarget "ChatMeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADAB78C2568C24A00E238C6 /* Debug */,
+				1ADAB78D2568C24A00E238C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ADAB76F2568C24900E238C6 /* Project object */;
+}

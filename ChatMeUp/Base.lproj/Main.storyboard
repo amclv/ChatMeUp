@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChatMeUp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdC-Zf-mV9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="bu3-3B-P42"/>
+                                    <constraint firstAttribute="height" constant="896" id="pOr-eu-Hby"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="xYD-58-NHw" kind="embed" id="F3P-ua-LIS"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="vdC-Zf-mV9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5P9-ey-uVl"/>
+                            <constraint firstAttribute="bottom" secondItem="vdC-Zf-mV9" secondAttribute="bottom" id="KFN-Hm-D2s"/>
+                            <constraint firstItem="vdC-Zf-mV9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="x9N-GD-v7H"/>
+                            <constraint firstItem="vdC-Zf-mV9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="z2o-i8-BaA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="onboardingContainer" destination="vdC-Zf-mV9" id="Jne-Rc-flG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531.8840579710145" y="102.45535714285714"/>
+        </scene>
+        <!--Onboarding Page View Controller-->
+        <scene sceneID="lkH-4U-oMr">
+            <objects>
+                <viewController id="xYD-58-NHw" customClass="OnboardingPageViewController" customModule="ChatMeUp" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ed-T4-KAI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1319" y="103"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
